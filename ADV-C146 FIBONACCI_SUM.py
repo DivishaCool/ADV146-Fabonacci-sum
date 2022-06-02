@@ -38,6 +38,7 @@ def Febonacci():
 btn = Button(root , text = "Show Febonacci series" ,  command = Febonacci , bg = "#06055c" ,  fg="white" , relief = "groove" , highlightcolor="cyan")
 btn.grid(row = 1, column = 3, pady = 10, padx = 100)
 btn.pack()
+number.pack()
 label_series.pack()
 label_flower.pack()
 label_spiral.pack()
